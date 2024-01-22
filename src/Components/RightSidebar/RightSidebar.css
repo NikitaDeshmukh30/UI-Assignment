@@ -177,7 +177,6 @@ h5 small i {
 .button {
   background-color: rgb(50, 179, 230) !important;
   color: white;
-  /* padding: 5px; */
   border: none;
   border-radius: 15px;
   cursor: pointer;

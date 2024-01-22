@@ -16,7 +16,7 @@ export const Sidebar = () => {
         <h4>MAIN MENU</h4>
         <div className='items'>
           <ul>
-          <li className='focus'><img src='https://th.bing.com/th/id/OIP.0j8mXSUzV3SmFhQx98eO1QHaHa?pid=ImgDet&w=203&h=203&c=7&dpr=1.3' className='active'/>&nbsp;News Quant</li>
+          <li className='focus'><img src='https://th.bing.com/th/id/OIP.0j8mXSUzV3SmFhQx98eO1QHaHa?pid=ImgDet&w=203&h=203&c=7&dpr=1.3' alt='' className='active'/>&nbsp;News Quant</li>
           <li id='economic'><FontAwesomeIcon icon={faChartLine} size="1x" color="gray" /> Economic Indicator</li>
           <li id='score'><i class="fa-regular fa-trophy"></i> One Score</li>
           <li><NotificationsNoneIcon/> Alert Central</li>    

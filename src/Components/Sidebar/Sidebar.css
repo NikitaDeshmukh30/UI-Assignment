@@ -41,7 +41,6 @@
 }
 
 .items .active {
-  /* background-color: blue; */
   color: rgb(139, 204, 226);
   margin-left: 7px;
 }
