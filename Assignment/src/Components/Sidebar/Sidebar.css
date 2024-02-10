@@ -5,39 +5,20 @@
 }
 .img img {
   width: 50%;
-  /* margin: 0px 0px 0px 133px; */
+  margin: 0px 0px 0px 133px;
 }
-
-#economic img {
-  /* margin-left: 140px; */
-  font-size: 5px;
-  width: 21px;
-  height: 21px;
-  margin-left: 5px;
-}
-
-#score {
-  /* margin-left: 140px; */
-  color: gray !important;
- 
-}
-#call{
-  width: 21px;
-  height: 21px;
-}
-.news{
+#economic {
   margin-left: 140px;
 }
-
 .focus img {
   width: 20px;
 }
 
 .img h4 {
   text-align: center;
-  color: rgb(187, 183, 183);
+  color: lightgray;
   font-weight: 500;
-  font-size: 13px;
+  font-size: 12px;
   margin-bottom: 10px;
 }
 

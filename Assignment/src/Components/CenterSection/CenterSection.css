@@ -1,17 +1,7 @@
 .middle {
   width: 47.4%;
 }
-.trends_search{
-  color: rgb(164, 161, 161);
-}
-.gray-text {
-  color: gray;
-  font-size: 14px;
-}
 
-.blue-text {
-  color: rgb(11, 168, 231);
-}
 .trends_input {
   display: flex;
   align-items: center;
@@ -22,26 +12,18 @@
   margin: 40px 10px 2px 40px;
 }
 
-/* input::placeholder {
-  color: transparent;
-  background-image: linear-gradient(to left, #d4dade 20%,  #a9c6d9 80%);
-  -webkit-background-clip: text;
-  background-clip: text; 
-} */
-
-
-
+.trends_input {
+  color: gray;
+}
 
 .trends_input>input {
   border: none;
   outline: none;
   width: 100%;
-  color: lightgray;
 }
 
 .ico {
   color: #1fb2ed;
-  margin-left: 370px;
 }
 
 .head h5 {
@@ -192,7 +174,7 @@
 
   margin-top: 5px;
   margin-right: 8px;
-  background-color: rgba(16, 164, 228, 0.8);
+  background-color: blue;
 }
 
 .pic4 {

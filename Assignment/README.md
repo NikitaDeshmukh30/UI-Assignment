@@ -17,7 +17,7 @@ CMD ["npm", "start"]
 6. create dockeringore file in root folder 
 7. in that copy node_modules
 8. open terminal and add docker build . commands
-9. then wait for docker image is created then run the cmd docker images
+9. then wait for docker image is created
 10. Then copy our docker img id
 11. then run the cmd docker run -p 3000:3000 and img id 
 12. here we go project is sucessfully dockerize.

@@ -5,7 +5,7 @@ export const RightSidebar = () => {
     <div className='rightSidebar'>
      <div className='Section'>
       <img src='https://th.bing.com/th/id/OIP.wGiAQOnYWltoDGblew8bOQAAAA?pid=ImgDet&w=168&h=177&c=7&dpr=1.3' alt=''/>  &nbsp;  &nbsp; 
-      <img src='https://cdni.iconscout.com/illustration/premium/thumb/woman-with-active-status-7931497-6359968.png' alt=''/>  &nbsp;  &nbsp;  &nbsp; 
+      <img src='https://th.bing.com/th/id/OIP.cpKBWEQFTt-cuMUI_WINuQHaGu?w=225&h=204&c=7&r=0&o=5&dpr=1.3&pid=1.7' alt=''/>  &nbsp;  &nbsp;  &nbsp; 
       <p>Username</p> 
       <p className='arrow'>▼</p>
      </div>

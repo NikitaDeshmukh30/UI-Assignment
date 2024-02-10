@@ -1,21 +1,17 @@
 import React from 'react'
-import { useState } from 'react';
-import './MiddleSection.css'
+import './CenterSection.css'
 import SearchIcon from '@material-ui/icons/Search'
 import MicIcon from '@material-ui/icons/Mic';
 import FilterListIcon from '@material-ui/icons/FilterList';
-import { Graph } from '../Graph/Graph';
-export const MiddleSection = () => {
- 
+import { Graph } from '../Chart/Chart';
+export const CenterSection = () => {
   return (
     <div className='middle'>
         
         {/* Serch Box */}
         <div className="trends_input">
                     <SearchIcon className="trends_search" />
-                    {/* <input type="text" placeholder="Search your question here or ask TiiA"/> */}
-                    <span className="gray-text"> Search your question here or ask </span>&nbsp;
-      <span className="blue-text"> TiiA</span>
+                    <input className="half-color-placeholder" placeholder=" Serch your question here or ask TiiA " type="text" />
                     <MicIcon className='ico'/>
                 </div>
 

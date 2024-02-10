@@ -2,36 +2,33 @@ import React from 'react';
 import { useEffect } from 'react';
 import { useRef } from 'react';
 import Chart from 'chart.js/auto';
-import './Graph.css';
+import './Chart.css';
 
 export const Graph = () => {
-  const chartRef = useRef(null);
-  const chartInstance = useRef(null);
+  const chartReference = useRef(null);
+  const chartIn = useRef(null);
 
   useEffect(() => {
-    if (chartInstance.current) {
-      chartInstance.current.destroy();
+    if (chartIn.current) {
+      chartIn.current.destroy();
     }
-    const myChart = chartRef.current.getContext('2d');
+    const myChart = chartReference.current.getContext('2d');
 
     const colors = [
       'rgb(255, 165, 0)',
-      'rgba(16, 164, 228, 0.8)',
+      'rgba(20, 40, 225, 0.8)',
       'rgba(138, 25, 25, 0.8)',
-      'rgba(16, 164, 228, 0.8)',
+      'rgba(20, 40, 225, 0.8)',
       'rgba(216, 13, 214, 0.8)',
-      'rgba(16, 164, 228, 0.8)',
+      'rgba(20, 40, 225, 0.8)',
       'rgba(12, 90, 7, 0.8)',
     ];
 
-    const highlightColor = 'rgba(31, 77, 221, 0.8)';
-
-    const randomColor = () => {
+    const color = () => {
       return colors[Math.floor(Math.random() * colors.length)];
     };
 
-
-    chartInstance.current = new Chart(myChart, {
+    chartIn.current = new Chart(myChart, {
       type: 'bubble',
       data: {
         labels: [
@@ -46,7 +43,7 @@ export const Graph = () => {
           '12:40 PM',
           '12:45 PM',
           '12:50 PM',
-          // '12:55 PM',
+          '12:55 PM',
         ],
         datasets: [
           {
@@ -59,17 +56,12 @@ export const Graph = () => {
               { x: '12:20 PM', y: 75, r: 18 },
               { x: '12:25 PM', y: 70, r: 14 },
               { x: '12:30 PM', y: 50, r: 22 },
-              { x: '12:35 PM', y: 80, r: 16, borderColor: highlightColor },
+              { x: '12:35 PM', y: 80, r: 16,},
             ],
-            
             backgroundColor: colors,
-            
           },
-          
         ],
-        
       },
-      
       options: {
         scales: {
           x: {
@@ -85,9 +77,7 @@ export const Graph = () => {
             title: {
               display: true,
             },
-
           },
-
         },
       },
     });
@@ -95,7 +85,7 @@ export const Graph = () => {
 
   return (
     <div>
-      <canvas ref={chartRef} width={420} height={133} />
+      <canvas ref={chartReference} width={400} height={133} />
     </div>
   );
 };
